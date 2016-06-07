@@ -22,8 +22,8 @@ return [
      * This will be used to seed the users table
      */
     'admin_user'     => [
-        'name'          => 'Van Hocht',
-        'firstname'     => 'Joren',
+        'name'          => env('BLOGIFY_ADMIN_NAME'),
+        'firstname'     => env('BLOGIFY_ADMIN_FIRSTNAME'),
         'username'      => env('BLOGIFY_ADMIN_USERNAME'),
         'email'         => env('BLOGIFY_ADMIN_EMAIL'),
         'password'      => env('BLOGIFY_ADMIN_PASSWORD'),
